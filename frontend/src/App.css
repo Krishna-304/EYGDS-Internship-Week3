@@ -1,0 +1,104 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition for background and text color */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34; /* Default dark mode background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; /* Default text color */
+  transition: background-color 0.5s ease, color 0.5s ease; /* Smooth background and text color change */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Light Mode */
+body.light-mode {
+  background-color: #ffffff; /* Light background */
+  color: #333333; /* Dark text for light mode */
+}
+
+.App-header.light-mode {
+  background-color: #f5f5f5; /* Light background for header */
+  color: #333333; /* Dark text for light mode header */
+}
+
+.App-link.light-mode {
+  color: #000000; /* Darker color for links in light mode */
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #282c34;
+  color: rgb(0, 0, 0);
+}
+
+.App-header.dark-mode {
+  background-color: #282c34;
+  color: white;
+}
+
+/* Light Mode */
+body.light-mode {
+  background-color: #f5f5f5;
+  color: #333333;
+}
+
+.App-header.light-mode {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+button {
+  cursor: pointer;
+}
